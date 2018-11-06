@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MonstersCreator {
 
-    public List<Monster> loadAllMonsters(){
+    public List<Monster> loadAllMonstersList(){
 
         List<Monster> monsters = new ArrayList<Monster>();
 
@@ -14,6 +14,17 @@ public class MonstersCreator {
         monsters.add(new Monster("Arystokratyczny jeż", "Mordor", 10, "Troll"));
         monsters.add(new Monster("Podradny nóż", "Velen", 5, "Troll"));
 
+        return monsters;
+    }
+
+    public Monster[] loadAllMonstersTab(){
+
+        Monster [] monsters = {
+                new Monster("Bryczek zjadacz", "Mordor", 25, "Orc"),
+                new Monster("Niebiański obgryzacz", "Mordor", 20, "Orc"),
+                new Monster("Arystokratyczny jeż", "Mordor", 10, "Troll"),
+                new Monster("Podradny nóż", "Velen", 5, "Troll")
+        };
         return monsters;
     }
 

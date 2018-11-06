@@ -30,6 +30,22 @@ public class Monster {
         return race;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setLocationName(String locationName) {
+        this.locationName = locationName;
+    }
+
+    public void setLvl(int lvl) {
+        this.lvl = lvl;
+    }
+
+    public void setRace(String race) {
+        this.race = race;
+    }
+
     @Override
     public String toString() {
         return name+" "+locationName+" "+"LVL: "+lvl+" "+race;
