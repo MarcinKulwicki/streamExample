@@ -29,4 +29,28 @@ public class MonstersCreator {
     }
 
 
+    /*
+    Talizman:
+
+    Podstawa:
+        X Magia i miecz
+
+    Dodatki duze:
+        X Podziemia
+        Gory
+        Smoki
+        Miasto
+        Las
+        ?Kataklizm
+
+    Male dodatki:
+        X Zniwiaz
+        Krolowa Lodu
+        X Pani Jeziora
+        X Wilkolak
+        Puszka Pandory
+        Kraina Ognia
+        Zwiastun
+        Krainy Otmetow
+     */
 }
